@@ -1,0 +1,105 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    position: sticky;
+    top: 0px;
+    left: 0px;
+    z-index: 1;
+}
+.nav-link{
+    color: #1E88E5 !important;
+}
+.navbar{
+    background-color: #1E88E5 !important;
+}
+.dropdown-item:hover{
+    background-color:transparent !important;
+    color: #fff !important;
+}
+.dropdown-menu > a{
+    text-decoration: none !important;
+}
+.contact:hover {
+    color: #fff !important;
+}
+.dropdown-menu{
+    text-align: center !important;
+    background-color: #1E88E5 !important;
+}
+.nav-item{
+    padding-right: 25px !important;
+}
+.dropdown-item{
+    padding: 0px !important;
+    margin: 0px !important;
+}
+.navbar-brand{
+    font-weight: bold;
+    font-size: 1.5em !important;
+    color: #2867cb !important;
+    text-shadow: 2px 4px 6px rgba(0, 0, 0, 0.2);
+}
+.carousel-caption{
+    color: #2867cb !important;
+    font-weight: bold;
+}
+.online-quiz{
+    width: 100%;
+    height: 500px;
+    background-color: royalblue;
+}
+.books{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+.criteria{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+}
+.criteria-row{
+    margin-top: 30px;
+    text-align: center;
+    max-width: 800px;
+}
+.criteria-row >h1{
+    font-size: 3em;
+}
+.criteria-row > ul, .criteria-row>ol{
+    text-align: left;
+    font-size: 1.2em;
+}
+.criteria-row ol ul{
+    list-style: disc;
+}
+.card{
+    box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.5);
+}
+.time-table th,td{
+    text-align: center;
+    padding: 5px;
+    border: 3px solid #2867cb;
+}
+.time-table th{
+    text-shadow: 2px 4px 6px rgba(0, 0, 0, 0.2);
+}
+.footer{
+    position:static;
+    bottom: 0px;
+    width: 100%;
+    color: #2867cb;
+    text-align: center;
+    font-weight: bold;
+    font-size: 24px;
+}
+@media(max-width:991px){
+    .row,.col{
+        margin-top: 10px;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+}
